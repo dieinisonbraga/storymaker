@@ -97,7 +97,7 @@ html {
   background-size:cover;
 } */
 body {
-  max-width:90%;
+  max-width:70%;
   margin:25px auto;
 }
 header, #content, footer { 
@@ -135,6 +135,13 @@ ul.main-menu li a.active {
 }
 .show {
   display:block;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 
