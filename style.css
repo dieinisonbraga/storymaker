@@ -97,12 +97,15 @@ html {
   background-size:cover;
 } */
 body {
-  max-width:70%;
+  max-width:80%;
   margin:25px auto;
+}
+header {
+  font-size: 250%;
 }
 header, #content, footer { 
   padding:25px;
-  color:rgba(0,0,0,.8); 
+  color:rgba(0,0,0,.8);
 }
 
 /* Menu Links */
@@ -140,5 +143,9 @@ ul.main-menu li a.active {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+#content p {
+  font-size: 150%; 
 }
 
